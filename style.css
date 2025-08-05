@@ -166,7 +166,7 @@ left: -9999px;
 #submit {
     width: 100%;
     padding: 15px;
-    background: linear-gradient(135deg, #00d4ff 0%, #090979 100%);
+    background: rgb(12, 12, 42);
     color: white;
     border: none;
     border-radius: 8px;
