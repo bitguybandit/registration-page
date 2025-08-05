@@ -59,3 +59,27 @@ label{
     color:white;
     font-size: 0.9rem;
 }
+input, select, textarea{
+    width:100%;
+    padding: 5px;
+    border: 1px solid;
+    font-size: 0.95rem;
+    background:#040423;
+    color: #ffffff;
+    border-color:#040423 ;
+    transition:all 0.3 ease;
+    backdrop-filter: blur(5px);
+}
+select {
+    cursor: pointer;
+}
+select option{
+    background: rgb(36, 2, 122);
+    color:white;
+}
+textarea{
+    resize: vertical;
+    min-height: 80px;
+    font-family: inherit;
+}
+
