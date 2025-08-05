@@ -1,1 +1,16 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    fornt-family: 'Segoe UI', tahoma, geneva, verdana, sans-serif;
+    background: rgb(36, 2, 122);
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+    margin: 0;
+}
