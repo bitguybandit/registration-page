@@ -79,7 +79,40 @@ select option{
 }
 textarea{
     resize: vertical;
-    min-height: 80px;
+    min-height: 90px;
     font-family: inherit;
 }
+.checkbox {
+     display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.checkbox input[type="radio"],
+.checkbox input[type="checkbox"] {
+    margin-right: 10px;
+    margin-top: 2px;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    accent-color: #3498db;
+    flex-shrink: 0;
+}
+
+.checkbox label {
+    vertical-align: middle;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    font-size: 0.9rem;
+    margin: 0;
+    display: block;
+}
+
+.checkbox-content {
+    flex: 1;
+}
+
 
