@@ -5,7 +5,7 @@
 }
 body{
     fornt-family: 'Segoe UI', tahoma, geneva, verdana, sans-serif;
-    background: rgb(36, 2, 122);
+    background: white;
     min-height: 100vh;
     display:flex;
     align-items: center;
